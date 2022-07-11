@@ -1,0 +1,83 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+h1, h2{
+	text-align: center;
+}
+img{
+	display: block;
+	margin: auto;
+}
+.about-me{
+	background-color: rgb(201, 243, 229);
+	padding: 20px;
+	border-style: dashed;
+	border-color: #7eeef9;
+	
+}
+
+.flexbox-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 800px;
+	height: 200px;
+	border-style: double;
+	border-color: darkslateblue;
+	background-color: darksalmon;
+}
+.flexbox-item {
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 50%;
+}
+.hobbies-interests {
+	display: flex;
+	align-items: space-between;
+	justify-content: flex-start;
+	flex-direction: column;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.favorite-buttons {
+	background-color: rgb(236, 208, 32);
+	height: 40px;
+	width: 150px;
+	border-radius: 40%;
+}
